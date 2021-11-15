@@ -13,7 +13,7 @@ Ex:
 
 int Ex1(char str[]){
 	//Your codes here
-    
+    //aodsfa;sasdflkjas;ldfj
 }
 
 int main(int argc, char *argv[]) {

@@ -23,6 +23,7 @@ void Ex2(int arr[], int n, int target){
             }
         }
     }
+	
     if(ans1 < ans2) printf("[%d %d]", ans1, ans2);
     else printf("[%d %d]", ans2, ans1);
 }

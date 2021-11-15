@@ -26,6 +26,7 @@ void Ex3(int m, int arr1[], int n, int arr2[]){
         float ans = (arr[(m+n)/2 - 1] + arr[(m+n)/2]) / 2.0;
         printf("%0.1f", ans);
     }
+	
     else printf("Median is %d", arr[(m+n)/2]);
 }
 
