@@ -20,6 +20,6 @@ int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	char *testcase = argv[1];
 	
-	printf("%d",Ex1(testcase);
+	printf("%d",Ex1(testcase));
 	return 0;
 }

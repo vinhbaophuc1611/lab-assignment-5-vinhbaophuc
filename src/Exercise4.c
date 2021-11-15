@@ -16,7 +16,6 @@ void Ex4(int n){
 	//Your codes here
 	
 }
-
 int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	int testcase = atoi(argv[1]);

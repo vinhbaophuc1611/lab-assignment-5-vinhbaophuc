@@ -14,7 +14,17 @@ Ex:
 
 void Ex2(int arr[], int n, int target){
 	//Your codes here
-	
+	int ans1, ans2;
+    for(int i = 0; i < n; i++){
+        for(int j = i + 1; j < n; j++){
+            if(arr[i] + arr[j] <= target){
+                ans1 = i;
+                ans2 = j;
+            }
+        }
+    }
+    if(ans1 < ans2) printf("[%d %d]", ans1, ans2);
+    else printf("[%d %d]", ans2, ans1);
 }
 
 int main(int argc, char *argv[]) {

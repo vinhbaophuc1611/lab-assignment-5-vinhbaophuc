@@ -19,7 +19,14 @@ Ex:
 
 void Ex3(int m, int arr1[], int n, int arr2[]){
 	//Your codes here
-	
+	int arr[1000];
+    for(int i = 0; i < m; i++) arr[i] = arr1[i];
+    for(int i = m; i < m + n; i++) arr[i] = arr2[i - m];
+    if((m + n) % 2 == 0){
+        float ans = (arr[(m+n)/2 - 1] + arr[(m+n)/2]) / 2.0;
+        printf("%f", ans);
+    }
+    else printf("Median is %d", arr[(m+n)/2]);
 }
 
 int main(int argc, char *argv[]) {
